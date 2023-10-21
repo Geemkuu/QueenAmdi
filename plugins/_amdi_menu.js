@@ -47,7 +47,6 @@ AMDI({ cmd: ["panel", "list", "menu"], desc: "Queen Amdi Main Menu", type: "prim
     var listInfo = {}
     listInfo.title = Lang.panelTitle
     listInfo.text = text
-    listInfo.buttonTXT = 'Select category'
 
     const sections = panelList(prefix);
     return await sendListMsg(listInfo, sections);
